@@ -1051,4 +1051,4 @@ async def help3(ctx):
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')    
 
-client.run(os.getenv('Token'))
+client.run(os.getenv('NTQzMDYyNzU0NDYyOTI0ODEy.Dz3b9g.3zUGiFXP_flVq9tr_OgnfKLyCHc'))
