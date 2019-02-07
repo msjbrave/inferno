@@ -969,6 +969,10 @@ async def ownerinfo(ctx):
 
 @client.command(pass_context=True)
 async def invite():
+    author = ctx.message.author
+    r, g, b = tuple(int(x * 255) for x in colorsys.hsv_to_rgb(random.random(), 1, 1))
+    embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
+    embed.set_author(name="HELLO""hi i am awesome")
     embed.set_field(name="link to invite me", value="https://discordapp.com/api/oauth2/authorize?client_id=543012294926401551&permissions=8&scope=bot")
     await client.say(embed=embed)    
     
