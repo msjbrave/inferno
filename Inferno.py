@@ -967,9 +967,6 @@ async def ownerinfo(ctx):
     embed.add_field(name="Co-owner: BlueBird ❄ Froakie collector#0440", value="He coded the bot")
     await client.say(embed=embed)
 
-@client.event(pass_context=True)
-async def invite(ctx):
-    await client.say('link to invite me https://discordapp.com/oauth2/authorize?client_id=543012294926401551&permissions=8&scope=bot')
 
 @client.command(pass_context = True)
 async def help(ctx):
