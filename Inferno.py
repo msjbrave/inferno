@@ -969,7 +969,7 @@ async def ownerinfo(ctx):
 
 @client.command(pass_context=True)
 async def invite(ctx):
-    await client.send('link to invite mehttps://discordapp.com/api/oauth2/authorize?client_id=543012294926401551&permissions=8&scop
+    await client.send('link to invite me https://discordapp.com/api/oauth2/authorize?client_id=543012294926401551&permissions=8&scope=bot')
       
     
 
