@@ -967,9 +967,6 @@ async def ownerinfo(ctx):
     embed.add_field(name="Co-owner: BlueBird ❄ Froakie collector#0440", value="He coded the bot")
     await client.say(embed=embed)
 
-@client.command(pass_context=True)
-async def invite(ctx):
-    await client.send('link to invite me https://discordapp.com/api/oauth2/authorize?client_id=543012294926401551&permissions=8&scope=bot')
       
     
 
@@ -1048,7 +1045,6 @@ async def help3(ctx):
     embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
     embed.set_author(name='Help')
     embed.set_image(url = 'https://image.ibb.co/caM2BK/help.gif')    
-    embed.add_field(name = 'invite', value ='invite the bot to a server',inline = False)
     embed.add_field(name = 'say', value ='make the bot say anything but administrator perms is required to use it',inline = False)
     embed.add_field(name = 'remind', value ='remind yourself',inline = False)
     embed.add_field(name = 'ownerinfo', value ='see the bots owner info',inline = False)
