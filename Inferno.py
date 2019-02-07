@@ -1003,7 +1003,7 @@ async def help(ctx):
     embed.add_field(name = 'flipcoin', value ='flip a coin',inline = False)
     embed.add_field(name = 'unmute', value ='unmute a user',inline = False)
     await client.send_message(author,embed=embed)
-    await client.say('📨 Check DMs For Information and do *help2 for other commands help')
+    await client.say('📨 Check DMs For Information and do #help2 for other commands help')
 @client.command(pass_context = True)
 async def help2(ctx):
     author = ctx.message.author
@@ -1037,7 +1037,7 @@ async def help2(ctx):
     embed.add_field(name = 'joke', value ='hear jokes from the bot',inline = False)
     embed.add_field(name = 'rolldice', value ='roll a dice',inline = False)
     await client.send_message(author,embed=embed)
-    await client.say('📨 Check DMs For Information and help3 for more commands help')
+    await client.say('📨 Check DMs For Information and #help3 for more commands help')
 @client.command(pass_context = True)
 async def help3(ctx):
     author = ctx.message.author
